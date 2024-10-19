@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled3/pages/SettingsPage.dart';
 import 'package:untitled3/pages/home_page.dart';
 import 'package:untitled3/pages/password.dart';
 import 'package:untitled3/pages/sign_up.dart';
@@ -19,7 +20,7 @@ class EventCountdownApp extends StatelessWidget {
         '/home': (context) => HomePage(),
         '/password' :(context)=> Password(),
         '/signup' :(context)=>SignUp(),
-
+       'settings' :(context)=>Settings(),
       }
     );
   }

@@ -39,12 +39,7 @@ class _HomePageState extends State<HomePage> {
             icon: const Icon(Icons.settings,color: Colors.white),
             tooltip: 'Settings',
             onPressed: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text('Settings Clicked'),
-                  duration: Duration(seconds: 2),
-                ),
-              );
+              Navigator.pushNamed(context, '/home');
             },
           ),
         ],
